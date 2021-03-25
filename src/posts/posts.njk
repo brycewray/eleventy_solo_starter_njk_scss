@@ -15,7 +15,6 @@ pagination:
 <main>
   <div class="container ctr sansSerif">
     <h1 class="posts-Head">Posts</h1>
-    <hr class="post-line"></div>
     <div>
       <p class="posts-pagerThingP">
         {% if pagination.firstPageHref != page.url %}
@@ -52,7 +51,6 @@ pagination:
           <p class="posts-Description">
             {{ post.data.description }}
           </p>
-        </div>
       {% endfor %}
       <hr class="paginatorBottom" />
       <p class="posts-pagerThingP">
