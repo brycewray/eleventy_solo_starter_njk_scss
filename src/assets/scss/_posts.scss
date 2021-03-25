@@ -4,6 +4,17 @@
   font-family: $sans-serif;
 }
 
+.posts-pagerThingP {
+  text-align: center;
+  font-size: $pokey;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.posts-pagerGray {
+  color: $grey-2;
+}
+
 .posts {
   &-Container {
     margin: 0 auto;
